@@ -1,0 +1,23 @@
+[package]
+name = "skirt-rs"
+version = "0.1.0"
+edition = "2021"
+authors = ["Emma <queer_emma@protonmail.com>"]
+
+[dependencies]
+dotenv = "0.15"
+log = "0.4"
+pretty_env_logger = "0.4"
+color-eyre = "0.6"
+structopt = "0.3"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+thiserror = "1.0"
+zip = "0.6"
+rust_decimal = "1.22"
+nalgebra = { version = "0.30", features = ["serde-serialize"] }
+svg = "0.10"
+parking_lot = "0.12"
+derive_more = "0.99"
+flo_curves = "0.6"
+toml = "0.5"
